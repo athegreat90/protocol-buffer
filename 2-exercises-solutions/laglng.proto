@@ -1,0 +1,11 @@
+// The syntax for this file is proto3
+
+syntax = "proto3";
+
+message LagLng
+{
+    
+    double latitude = 1;
+
+    double longitude = 2;
+}

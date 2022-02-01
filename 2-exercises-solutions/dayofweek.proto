@@ -1,0 +1,15 @@
+// The syntax for this file is proto3
+
+syntax = "proto3";
+
+enum DayOfWeek
+{
+    UNDEFINED = 0;
+    MONDAY = 1;
+    TUESDAY = 2;
+    WEDNESDAY = 3;
+    THUSDAY = 4;
+    FRIDAY = 5;
+    SATUDAY = 6;
+    SUNDAY = 7;
+}
